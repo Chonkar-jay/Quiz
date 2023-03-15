@@ -1,0 +1,9 @@
+$(document).ready(function()
+{
+    $('#choiceField').hide();
+    $('#startBtn').click(function()
+    {
+        $('#startBtn').hide();
+        $('#choiceField').show();
+    });
+})

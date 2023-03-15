@@ -1,0 +1,61 @@
+.indexMain
+{
+    color: white;
+    background-color: black;
+}
+.container
+{
+    text-align: center;
+}
+#quizGameText
+{
+    color: royalblue;
+}
+.Btn
+{
+    font-size: 150%;
+    color: white;
+    background-color: transparent;
+    border: 5px double royalblue;
+    border-radius: 48%;
+    padding: 2%;
+    /* width: 30%;  */
+}
+#choiceField li 
+{
+    list-style: none;
+    margin: 5%;
+}
+/* @keyframes fieldSelectingAnimation
+{
+    from
+    {
+        
+    }
+}  */
+/* .fieldSelection
+{
+    tra
+} */
+
+/* Common css for all fields starts*/
+.numbering
+{
+    color: rgb(100, 100, 100);
+}
+.questionBox
+{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 70%;
+    height: 70%;
+    border-radius: 10%;
+    padding: 8%;
+    box-shadow: 5%;
+}
+.astronomyQue h3
+{
+    margin: 3%;
+}
+.astronomyQue h4
+{}
