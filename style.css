@@ -21,6 +21,17 @@
     padding: 2%;
     /* width: 30%;  */
 }
+.finishBtn
+{
+    margin: 5%;
+    font-size: 150%;
+    color: white;
+    background-color: transparent;
+    border: 5px double royalblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* width: 30%;  */
+}
 #choiceField li 
 {
     list-style: none;
@@ -53,6 +64,7 @@
 {
     box-sizing: border-box;
     /* border: 1px solid royalblue; */
+    background-color: rgb(49, 51, 65);
     width: 70%;
     height: 70%;
     border-radius: 8%;
