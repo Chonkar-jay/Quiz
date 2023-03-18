@@ -37,20 +37,15 @@
     list-style: none;
     margin: 5%;
 }
-/* @keyframes fieldSelectingAnimation
-{
-    from
-    {
-        
-    }
-}  */
-/* .fieldSelection
-{
-    tra
-} */
+
 
 /* Common css for all fields starts*/
-
+.closebtn
+{
+    float: right;
+    position:relative;
+    margin-top: 0%;
+}
 .astronomyMain
 {
     color: white;
@@ -82,5 +77,3 @@
     text-align: left;
     padding-left: 15%;
 }
-/* .astronomyQue h4
-{} */
