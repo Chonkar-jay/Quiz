@@ -10,76 +10,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Quiz</title>
-</head>
-<body class="container indexMain">
-    <h1>WELCOME TO <span id="quizGameText">QUIZ GAME</span></h1><br>
-    <a href="#"><button id="startBtn" class="Btn">Let's Start...</button></a>
-    
-    <div id="choiceField" class="row fieldSelection">
-        <div class="col-sm-6">
-            <li><a href="astronomy.html"><button class="Btn" onclick="generateQuiz()">Astronomy Quiz</button></a></li>
-            <li><a href="technical.html"><button class="Btn">Technical Quiz</button></a></li>
-        </div>
-        <div class="col-sm-6">
-            <li><a href="general.html"><button class="Btn">General Quiz</button></a></li>
-            <li><a href="sports.html"><button class="Btn">Sports Quiz</button></a></li>
-        </div>
-    </div>
-</body>
-<script type="text/javascript" src="script.js"></script>
-</html>
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-    <head>
-    <link
-    rel="stylesheet"
-    href="style.css"
-  />
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-  crossorigin="anonymous"
-/>
-  <script
-    type="text/javascript"
-    src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
-  ></script>
-  <script
-    type="text/javascript"
-    src="Project_Javascript_jQuery.js"
-  ></script>
+    <title>User-through Quiz</title>
 </head>
 <body>
-  <div class="container main_section">
-    <div class="Q_A">
-      <h2 class="question">question</h2>
-      <ol>
-        <li>
-          <input type="radio" name="answer" id="ans1">
-          <label for="ans1" id="option1"></label>
-        </li>
-        <li>
-          <input type="radio" name="answer" id="ans2">
-          <label for="ans2" id="option2"></label>
-        </li>
-        <li>
-          <input type="radio" name="answer" id="ans3">
-          <label for="ans3" id="option3"></label>
-        </li>
-        <li>
-          <input type="radio" name="answer" id="ans4">
-          <label for="ans4" id="option4"></label>
-        </li>
-      </ol>
-      <button id="submit">submit</button>
-      <div id="showScore" class="scoreA"></div>
+    <div class="container main_section">
+        <div class="Q_A">
+          <input type="text" class="question" placeholder="Write your Question">
+          <ol>
+            <li>
+                <input type="text"  placeholder="option A" id="optionA">
+            </li>
+            <li>
+                <input type="text" placeholder="option B" id="optionB">
+            </li>
+            <li>
+                <input type="text" placeholder="option C" id="optionB">
+            </li>
+            <li>
+                <input type="text" placeholder="option D" id="optionB">
+            </li>
+            <label>Correct Answer : </label><select>
+                <option class="select_a" value="select A">Option A</option>
+                <option class="select_b" value="select B">Option B</option>
+                <option class="select_c" value="select C">Option C</option>
+                <option class="select_d" value="select D">Option D</option>
+            </select>
+          </ol>
+          <button id="submit">ADD</button>
+          <div id="showScore" class="scoreA"></div>
+        </div>
     </div>
-  </div>
-    <script src="script.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
-</html> -->
+</html>
