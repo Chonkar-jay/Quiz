@@ -13,10 +13,14 @@
     <title>User-through Quiz</title>
 </head>
 <body>
-    <div class="container main_section">
-        <div class="Q_A">
-          <input type="text" class="question" placeholder="Write your Question">
-          <ol>
+    <div class="container main_section" >
+        <div class="Q_A_MainSection" >
+            <div id="heading">
+                <h1>Quiz</h1>
+            </div>
+            <div class="Q_A_Section">
+            <ol><li>Write your question<br><textarea class="question" onclick="questionArea()"></textarea></li></ol>
+            
             <li>
                 <input type="text"  placeholder="option A" id="optionA">
             </li>
@@ -29,15 +33,19 @@
             <li>
                 <input type="text" placeholder="option D" id="optionB">
             </li>
-            <label>Correct Answer : </label><select>
-                <option class="select_a" value="select A">Option A</option>
-                <option class="select_b" value="select B">Option B</option>
-                <option class="select_c" value="select C">Option C</option>
-                <option class="select_d" value="select D">Option D</option>
-            </select>
-          </ol>
-          <button id="submit">ADD</button>
+            <span>
+                <label id="correctAnswer"><li>Correct Answer : </li></label>
+                <select>
+                    <option class="select_a" value="select A">Option A</option>
+                    <option class="select_c" value="select C">Option C</option>
+                    <option class="select_d" value="select D">Option D</option>
+                </select>
+          
+                <button id="submit">ADD</button>
+            </span>
           <div id="showScore" class="scoreA"></div>
+            </div>
+
         </div>
     </div>
 
